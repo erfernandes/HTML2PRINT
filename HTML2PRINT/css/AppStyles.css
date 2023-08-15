@@ -1,0 +1,21 @@
+@page { 
+    margin: 20px; 
+    width: 100%;
+}
+
+@media print { 
+    html, body { 
+        height: initial !important; 
+        overflow: initial !important; 
+    }
+}
+
+.pagebreak {
+    clear: both;
+    page-break-after: always;
+    display: none;
+}
+
+.full-table {
+    margin: 5px;
+}
