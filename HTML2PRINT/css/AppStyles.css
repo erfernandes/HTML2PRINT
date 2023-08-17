@@ -26,3 +26,8 @@
 .full-table {
     margin: 5px;
 }
+
+#btnHtml2Print {
+    width: 100%;
+    height: 100%
+}
