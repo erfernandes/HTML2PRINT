@@ -8,6 +8,13 @@
         height: initial !important; 
         overflow: initial !important; 
     }
+    table { 
+        page-break-inside:auto 
+    }
+    tr { 
+        page-break-inside:avoid; 
+        page-break-after:auto 
+    }
 }
 
 .pagebreak {

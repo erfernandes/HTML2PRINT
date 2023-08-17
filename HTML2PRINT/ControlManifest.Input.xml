@@ -7,6 +7,10 @@
     <property name="DefaultFilename" display-name-key="Default Filename" description-key="Default name of the file when it's saved" of-type="SingleLine.Text" usage="bound" required="true" />
     <property name="CustomCss" display-name-key="Custom CSS" description-key="Custom css code to be applied on the page" of-type="Multiple" usage="bound" required="true" />
     <property name="ButtonText" display-name-key="Button Text" description-key="Text inside that will be shown inside the button" of-type="SingleLine.Text" usage="bound" required="true" default-value="Imprimir" />
+    <property name="ButtonAppearence" display-name-key="Button Appearence" description-key="Button Appearence" of-type="Enum" usage="input" required="false" default-value="Primary">      
+      <value name="Primary" display-name-key="Primary" description-key="Primary button appearence" default="true">Primary</value>
+      <value name="Default" display-name-key="Default" description-key="Default appearence">Default</value>
+    </property>
     <!--
       Property node's of-type attribute can be of-type-group attribute.
       Example:

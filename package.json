@@ -12,6 +12,7 @@
     "refreshTypes": "pcf-scripts refreshTypes"
   },
   "dependencies": {
+    "@fluentui/react": "^8.110.13",
     "html-react-parser": "^4.2.1",
     "react-to-print": "^2.14.13"
   },
