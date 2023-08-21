@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <manifest>
-  <control namespace="HTML2PRINTNamespace" constructor="HTML2PRINT" version="1.0.1" display-name-key="HTML2PRINT" description-key="HTML2PRINT description" control-type="standard" >
+  <control namespace="HTML2PRINTNamespace" constructor="HTML2PRINT" version="2.0.4" display-name-key="HTML2PRINT" description-key="Print your HTML table easily" control-type="standard" >
     <external-service-usage enabled="false"></external-service-usage>
     <!-- property node identifies a specific, configurable piece of data that the control expects from CDS -->
     <property name="HTMLCode" display-name-key="HTML Code" description-key="HTML_Code" of-type="Multiple" usage="bound" required="true" />

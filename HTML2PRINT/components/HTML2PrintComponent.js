@@ -1,4 +1,4 @@
-import React, { useRef } from "react";
+import React, { useRef, useState, useEffect } from "react";
 import parse from 'html-react-parser';
 import ReactToPrint from "react-to-print";
 import { ActionButton, CompoundButton, DefaultButton, IIconProps, PrimaryButton } from '@fluentui/react';
@@ -7,9 +7,10 @@ import '../css/AppStyles.css';
 
 function App({ appContext }) {
     const componentRef = useRef();
+
     const buttonElement = appContext.parameters.ButtonAppearence.raw === 'Primary' ? 
-        <PrimaryButton id="btnHtml2Print">{ appContext.parameters.ButtonText.raw }</PrimaryButton> :
-        <DefaultButton id="btnHtml2Print">{ appContext.parameters.ButtonText.raw }</DefaultButton>
+        <PrimaryButton id="btnHtml2Print" disabled={ appContext.mode.isControlDisabled }>{ appContext.parameters.ButtonText.raw }</PrimaryButton> :
+        <DefaultButton id="btnHtml2Print" disabled={ appContext.mode.isControlDisabled }>{ appContext.parameters.ButtonText.raw }</DefaultButton>
 
     return(
         <React.Fragment>

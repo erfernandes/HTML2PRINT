@@ -39,7 +39,7 @@ export class HTML2PRINT implements ComponentFramework.StandardControl<IInputs, I
     public updateView(context: ComponentFramework.Context<IInputs>): void
     {
         ReactDOM.render(
-            React.createElement(App, { appContext: this._appContext }),
+            React.createElement(App, { appContext: context }),
             this._container
         );
     }
@@ -59,6 +59,6 @@ export class HTML2PRINT implements ComponentFramework.StandardControl<IInputs, I
      */
     public destroy(): void
     {
-        // Add code to cleanup control if necessary
+        ReactDOM.unmountComponentAtNode(this._container);
     }
 }
