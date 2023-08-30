@@ -7,6 +7,7 @@ Easily print or save your HTML from Canvas Apps
 - [Properties](#properties)
 - [Video tutorial](#video-tutorial)
 - [Download file](#download-file)
+- [Feeding the monster](#feeding-the-monster)
 
 ### Properties
 
@@ -25,3 +26,7 @@ Easily print or save your HTML from Canvas Apps
 ### Download file
 
 [Solution file](https://github.com/erfernandes/HTML2PRINT/blob/main/HTML2PRINT_Solution.zip)
+
+### Feeding the monster
+
+If you think my work is cool and want to please me in some way, you can [click here](https://www.buymeacoffee.com/erfernandes) to buy me a coffee. I promise that everything I receive here will be converted into coffee powder so that I can be excited to develop more cool things (https://www.buymeacoffee.com/erfernandes)
